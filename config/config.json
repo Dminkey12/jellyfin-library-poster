@@ -7,30 +7,38 @@
       "user_name": "user_name",
       "password": "password",
       "update_poster": false
+    },
+    {
+      "server_name": "MyEmby",
+      "server_type": "emby",
+      "base_url": "http://192.168.31.131:8096",
+      "user_name": "puppeteer",
+      "password": "1234567890",
+      "update_poster": false
     }
   ],
   "cron": "0 1 * * *",
   "exclude_update_library": ["Short", "Playlists", "合集"],
   "template_mapping": [
     {
-      "library_name": "Anime",
-      "library_ch_name": "动漫",
-      "library_eng_name": "ANIME"
+      "library_name": "华语电影",
+      "library_ch_name": "华语电影",
+      "library_eng_name": "Chinese Films"
     },
     {
-      "library_name": "Classic TV",
-      "library_ch_name": "电视剧",
-      "library_eng_name": "TV"
+      "library_name": "外语电影",
+      "library_ch_name": "外语电影",
+      "library_eng_name": "Foreign Language Films"
     },
     {
-      "library_name": "Movie",
-      "library_ch_name": "电影",
-      "library_eng_name": "MOVIE"
+      "library_name": "日韩电影",
+      "library_ch_name": "日韩电影",
+      "library_eng_name": "Japanese and Korean Movies"
     },
     {
-      "library_name": "Documentary",
-      "library_ch_name": "纪录片",
-      "library_eng_name": "DOC"
+      "library_name": "动画电影",
+      "library_ch_name": "动画电影",
+      "library_eng_name": "Animated Films"
     },
     {
       "library_name": "合集",
@@ -38,24 +46,109 @@
       "library_eng_name": "COLLECTIONS"
     },
     {
-      "library_name": "Hot Movie",
-      "library_ch_name": "正在热映",
-      "library_eng_name": "HOT MOVIE"
+      "library_name": "国产剧集",
+      "library_ch_name": "国产剧集",
+      "library_eng_name": "Domestic TV"
     },
     {
-      "library_name": "Hot TV",
-      "library_ch_name": "正在热播",
-      "library_eng_name": "HOT TV"
+      "library_name": "外语剧集",
+      "library_ch_name": "外语剧集",
+      "library_eng_name": "Foreign Language TV"
     },
     {
-      "library_name": "Short",
-      "library_ch_name": "短剧",
-      "library_eng_name": "SHORT"
+      "library_name": "日韩剧集",
+      "library_ch_name": "日韩剧集",
+      "library_eng_name": "Japanese and Korean TV"
     },
     {
-      "library_name": "TEST TV",
-      "library_ch_name": "测试电视",
-      "library_eng_name": "TEST TV"
+      "library_name": "综艺",
+      "library_ch_name": "综艺",
+      "library_eng_name": "Variety Show"
+    }
+    {
+      "library_name": "日番",
+      "library_ch_name": "日番",
+      "library_eng_name": "Japanese"
+    }
+    {
+      "library_name": "儿童剧集",
+      "library_ch_name": "儿童剧集",
+      "library_eng_name": "Children's Series"
+    }
+    {
+      "library_name": "演唱会",
+      "library_ch_name": "演唱会",
+      "library_eng_name": "Concert"
+    }
+    {
+      "library_name": "香港三级片",
+      "library_ch_name": "香港三级片",
+      "library_eng_name": "HK III movies"
+    }
+    {
+      "library_name": "欧美四级片",
+      "library_ch_name": "欧美四级片",
+      "library_eng_name": "US IV films"
+    }
+    {
+      "library_name": "日本AV",
+      "library_ch_name": "日本AV",
+      "library_eng_name": "JP AV"
+    }
+    {
+      "library_name": "欧美AV",
+      "library_ch_name": "欧美AV",
+      "library_eng_name": "US AV"
+    }
+    {
+      "library_name": "Top250",
+      "library_ch_name": "Top250",
+      "library_eng_name": "Top250"
+    }
+    {
+      "library_name": "国产传媒",
+      "library_ch_name": "国产传媒",
+      "library_eng_name": "Domestic Media"
+    }
+    {
+      "library_name": "里番",
+      "library_ch_name": "里番",
+      "library_eng_name": "JP Rip"
+    }
+    {
+      "library_name": "FC-2",
+      "library_ch_name": "FC-2",
+      "library_eng_name": "FC-2"
+    }
+    {
+      "library_name": "纪录片",
+      "library_ch_name": "纪录片",
+      "library_eng_name": "DOC"
+    }
+    {
+      "library_name": "欧美Cos",
+      "library_ch_name": "欧美Cos",
+      "library_eng_name": "US Cos"
+    }
+    {
+      "library_name": "无码",
+      "library_ch_name": "无码",
+      "library_eng_name": "No code"
+    }
+    {
+      "library_name": "小马开大车",
+      "library_ch_name": "小马开大车",
+      "library_eng_name": "Little horse driving a big car"
+    }
+    {
+      "library_name": "偷窃",
+      "library_ch_name": "偷窃",
+      "library_eng_name": "theft"
+    }
+    {
+      "library_name": "重口",
+      "library_ch_name": "重口",
+      "library_eng_name": "Heavy"
     }
   ]
 }
