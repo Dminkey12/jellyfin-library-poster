@@ -12,8 +12,8 @@
       "server_name": "MyEmby",
       "server_type": "emby",
       "base_url": "http://192.168.31.131:8096",
-      "user_name": "puppeteer",
-      "password": "1234567890",
+      "user_name": "user_name",
+      "password": "password",
       "update_poster": false
     }
   ],
